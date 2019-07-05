@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>试用申请</title>
+	<!--/tags -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="" />
+	<script type="application/x-javascript">
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<!--//tags -->
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/appointment_style.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/font-awesome.css" rel="stylesheet">
+	<!-- //for bootstrap working -->
+	<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700" rel="stylesheet">
+</head>
+
+<body>
+	<!-- header -->
+	<script type="text/javascript" src="js/head.js"></script>
+	<!-- banner -->
+<div class="banner_inner_content_agile_w3l" style="background:linear-gradient(rgba(23, 22, 23, 0.1), rgba(23, 22, 23, 0.3)),url(images/轮播图1.jpg) no-repeat;background-size: cover"></div>
+	<!--//banner -->
+	<div class="w3ls-banner">
+	<div class="heading">
+		<h1>免费试用申请</h1>
+	</div>
+		<div class="container_1">
+			<div class="heading">
+				<h2>请填写个人信息</h2>
+				<p>*号为必填</p>
+			</div>
+			<div class="agile-form">
+				<form action="/" method="post">
+					<ul class="field-list">
+						<li>
+							<label class="form-label"> 
+								姓名 
+								<span class="form-required"> * </span>
+							</label>
+							<div class="form-input">
+								<input type="text" name="patient_name" placeholder="请输入姓名" required >
+							</div>
+						</li>
+						<li>
+							<label class="form-label">
+							   性别
+							   <span class="form-required"> * </span>
+							</label>
+							<div class="form-input">
+								<!-- <select class="form-dropdown" name="gender" required>
+									<option value="">&nbsp;</option>
+									<option value="Male"> 男 </option>
+									<option value="Female"> 女 </option>
+								</select> -->
+								<input type="radio" name="gender" value="男" checked="true"/>男&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<input type="radio" name="gender" value="女"/>女
+							</div>
+						<li>
+						<li> 
+							<label class="form-label">
+							   电话号码
+							   <span class="form-required"> * </span>
+							</label>
+							<div class="form-input">
+								<input type="text" name="mobile_number" placeholder="请输入电话号码" required >
+							</div>
+						</li>
+						<li>
+							<label class="form-label">
+							   出生日期
+							   <span class="form-required"> * </span>
+							</label>
+							<div class="form-input dob">
+								<span class="form-sub-label">
+									<select name="day" class="day">
+										<option>&nbsp;</option>
+										<option value="1"> 1 </option>
+										<option value="2"> 2 </option>
+										<option value="3"> 3 </option>
+										<option value="4"> 4 </option>
+										<option value="5"> 5 </option>
+										<option value="6"> 6 </option>
+										<option value="7"> 7 </option>
+										<option value="8"> 8 </option>
+										<option value="9"> 9 </option>
+										<option value="10"> 10 </option>
+										<option value="11"> 11 </option>
+										<option value="12"> 12 </option>
+										<option value="13"> 13 </option>
+										<option value="14"> 14 </option>
+										<option value="15"> 15 </option>
+										<option value="16"> 16 </option>
+										<option value="17"> 17 </option>
+										<option value="18"> 18 </option>
+										<option value="19"> 19 </option>
+										<option value="20"> 20 </option>
+										<option value="21"> 21 </option>
+										<option value="22"> 22 </option>
+										<option value="23"> 23 </option>
+										<option value="24"> 24 </option>
+										<option value="25"> 25 </option>
+										<option value="26"> 26 </option>
+										<option value="27"> 27 </option>
+										<option value="28"> 28 </option>
+										<option value="29"> 29 </option>
+										<option value="30"> 30 </option>
+										<option value="31"> 31 </option>
+									</select>
+									<label class="form-sub-label1"> 日 </label>
+								</span>
+								<span class="form-sub-label">
+									<select name="month">
+										<option>&nbsp;</option>
+										<option value="January"> 1 </option>
+										<option value="February"> 2 </option>
+										<option value="March"> 3 </option>
+										<option value="April"> 4 </option>
+										<option value="May"> 5 </option>
+										<option value="June"> 6 </option>
+										<option value="July"> 7 </option>
+										<option value="August"> 8 </option>
+										<option value="September"> 9 </option>
+										<option value="October"> 10 </option>
+										<option value="November"> 11 </option>
+										<option value="December"> 12 </option>
+									 </select>
+									<label class="form-sub-label1"> 月 </label>
+								</span>
+								<span class="form-sub-label">
+									<input type="text" class="year" name="year" placeholder=" 请输入年份" required>
+									<label class="form-sub-label1"> 年 </label>
+								</span>
+							</div>
+						</li>
+						<li> 
+							<label class="form-label">
+							   地址
+							   <span class="form-required"> * </span>
+							</label>
+							<div class="form-input add">
+								<span class="form-sub-label">
+									<input type="text" name="province" placeholder=" " required>
+									<label class="form-sub-label1"> 省 </label>
+								</span>
+								<span class="form-sub-label">
+									<input type="text" name="city" placeholder=" " required>
+									<label class="form-sub-label1"> 市 </label>
+								</span>
+								<span class="form-sub-label">
+									<input style="width:99%" type="text" name="city" placeholder=" " required>
+									<label class="form-sub-label1"> 详细地址 </label>
+								</span>
+								<!-- <span class="form-sub-label">
+									<input type="text" name="state" placeholder=" " required>
+									<label class="form-sub-label1"> State / Province </label>
+								</span>
+								<span class="form-sub-label">
+									<input type="text" name="zipcode" placeholder=" " required>
+									<label class="form-sub-label1"> Postal / Zip Code </label>
+								</span>
+								<span class="form-sub-label">
+									<input type="text" name="country" placeholder=" " required>
+									<label class="form-sub-label1"> Country </label>
+								</span> -->
+							</div>
+						</li>
+						<li> 
+							<label class="form-label">
+							   邮箱地址
+							   <span class="form-required"> * </span>
+							</label>
+							<div class="form-input">
+								<input type="email" name="email" placeholder="myname@example.com" required>
+							</div>
+						</li>
+						<li> 
+							<label class="form-label1">
+								留言信息
+							</label>
+							<div class="form-input2">
+								<textarea rows="5" cols="20" name="textarea"></textarea>
+							
+							</div>
+						</li>
+						<li class="last-type"> 
+							<label class="form-label1">
+								选择你所需要的业务
+								<span class="form-required"> * </span>
+							</label>
+							<div class="form-input2">
+								<input type="checkbox" name="test1" ><label class="type-of-test">OA办公</label>
+								<input type="checkbox" name="test2" ><label class="type-of-test">HR管理</label>
+								<input type="checkbox" name="test3" ><label class="type-of-test">COST管理</label>
+								<input type="checkbox" name="test4" ><label class="type-of-test">ERP管理</label>
+								<input type="checkbox" name="test5" ><label class="type-of-test">其他</label>
+							</div>
+						</li>
+					</ul>
+					<input type="submit" value="提交">
+				</form>	
+			</div>
+		</div>
+</div>
+	<!-- footer -->
+	<script type="text/javascript" src="js/foot.js"></script>
+	
+
+	<!-- //footer -->
+	<!-- bootstrap-modal-pop-up -->
+	<div class="modal video-modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					New Clinic
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>						
+				</div>
+					<div class="modal-body">
+						<img src="images/g7.jpg" alt=" " class="img-responsive" />
+						<p>Ut enim ad minima veniam, quis nostrum 
+							exercitationem ullam corporis suscipit laboriosam, 
+							nisi ut aliquid ex ea commodi consequatur? Quis autem 
+							vel eum iure reprehenderit qui in ea voluptate velit 
+							esse quam nihil molestiae consequatur, vel illum qui 
+							dolorem eum fugiat quo voluptas nulla pariatur.
+							<i>" Quis autem vel eum iure reprehenderit qui in ea voluptate velit 
+								esse quam nihil molestiae consequatur.</i></p>
+					</div>
+			</div>
+		</div>
+	</div>
+<!-- //bootstrap-modal-pop-up --> 
+	<!-- js -->
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script>
+		$('ul.dropdown-menu li').hover(function () {
+			$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+		}, function () {
+			$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+		});
+	</script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</body>
+
+</html>
